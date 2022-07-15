@@ -10,11 +10,13 @@
 }
 
 .item span {
-  font-size: 5vh;  
+  font-size: 5vh;
 }
 
 .item #info {
   font-size: 3vh;
+  font-family: Cormorant Garamond;
+
 }
 
 .item p {
@@ -28,9 +30,22 @@
   color: black;
 }
 
+.container p {
+
+  font-family: Cormorant Garamond;
+  line-height: 1.5;
+  text-align: justify;
+}
+
 .item-1 {
   background-color: white;
-  
+  font-size: 1.9em;
+  font-family: Cormorant Garamond;
+  line-height: 1.5;
+  text-align: justify;
+
+
+
 }
 
 .item-2 {
@@ -65,4 +80,9 @@
   max-width: 70px;
   max-height: 40px;
   margin-right: 5px;
+}
+
+.ahu_icon {
+  max-width: 100%;
+  max-height: 100%;
 }

@@ -14,10 +14,10 @@ const routes: Routes = [
     path: 'about',
     component: AboutComponent
   },
-  {
-    path: 'people',
-    component: PeopleComponent
-  },
+  // {
+  //   path: 'people',
+  //   component: PeopleComponent
+  // },
   {
     path: 'publications',
     component: PublicationsComponent
