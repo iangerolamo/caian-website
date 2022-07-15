@@ -1,95 +1,155 @@
-<div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="5px" fxLayoutGap.xs="0">
-
+<div
+  class="container"
+  fxLayout
+  fxLayout.xs="column"
+  fxLayoutAlign="center"
+  fxLayoutGap="5px"
+  fxLayoutGap.xs="0"
+>
   <div class="item item-1" fxFlex="100%">
     <p>
-      I'm Caian! I am a botanist and currently a PhD Cadidate at University of São Paulo
-      <br>
-      <br>
-      <br>
-      Main Research Interests: Climbing Plants, Wood Anatomy, Biomechanics and Hydraulics of Plants, Ecology of Lianas.
-      <br>
-      <br>
-      <br>
-      <!-- <img id="ok" class="image-2" src="/assets/images/arte.jpg" alt="image"> -->
-      <!-- <br>
-      <br> -->
-      <!-- <br> -->
-      <!-- <br>
-      <br>
-      <br> -->
-      <!-- <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br> -->
- 
-
+      I'm Caian! I am a botanist and currently a PhD Cadidate at University of
+      São Paulo
+      <br />
+      <br />
+      Main Research Interests: Climbing Plants, Wood Anatomy, Biomechanics and
+      Hydraulics of Plants, Ecology of Lianas.
+      <br />
+      <br />
+      <!-- This is my website, please browse as you wish and contact me if you need to. -->
+      <br />
+      <br />
+      <br />
     </p>
 
     <div>
-      <div class="container"
-            fxLayout
-            fxLayoutAlign="center"
-            fxLayoutGap="50px">
+      <div class="container" fxLayout fxLayoutAlign="center" fxLayoutGap="50px">
         <div class="item item-1">
-          <span>
-            <b>Contact</b> <br><br>
-          </span>
-          <i>caiansgerolamo@gmail.com</i> 
-          <br><br>
-          <i>caian.gerolamo@usp.br</i> 
-          <br><br>
-          <br><br>
-
-
+          <span> <b>Contact</b> <br /><br /> </span>
+          caiansgerolamo@gmail.com
+          <br /><br />
+          caian.gerolamo@usp.br
+          <br /><br />
+          <br /><br />
         </div>
         <div class="item item-2">
-          <button mat-raised-button color="primary" (click)="resume()">
-            DOWNLOAD <br> RESUME
+          <button
+            mat-raised-button
+            color="primary"
+            (click)="
+              goToLink('https://figshare.com/articles/preprint/Resume/20294409')
+            "
+          >
+            DOWNLOAD <br />
+            RESUME
           </button>
         </div>
         <div class="item item-3">
           <span>
-            <b>Follow me</b> <br><br>
-            <img class="image" src="/assets/images/linke.png" alt="image">
-            <img class="image" src="/assets/images/face.png" alt="image">
-
+            <b>Follow me</b> <br /><br />
+            <img
+              class="image"
+              src="/assets/images/linke.png"
+              alt="image"
+              (click)="
+                goToLink(
+                  'https://www.linkedin.com/in/caian-gerolamo-5a4041144/'
+                )
+              "
+            />
+            <img
+              class="image"
+              src="/assets/images/insta2.png"
+              alt="image"
+              (click)="
+                goToLink(
+                  'https://www.instagram.com/anatomyofliana/'
+                )
+              "
+            />
           </span>
         </div>
       </div>
 
-      <div class="container"
-          fxLayout
-          fxLayoutAlign="center"
-          fxLayoutGap="50px">
+      <div class="container" fxLayout fxLayoutAlign="center" fxLayoutGap="50px">
         <div class="item item-4">
-          <button mat-raised-button color="primary" (click)="resume()">
+          <button
+            mat-raised-button
+            color="primary"
+            (click)="goToLink('https://orcid.org/0000-0003-1819-5371')"
+          >
             ORCID
           </button>
         </div>
         <div class="item item-5">
-          <button mat-raised-button color="primary" (click)="resume()"> 
+          <button
+            mat-raised-button
+            color="primary"
+            (click)="
+              goToLink('https://www.researchgate.net/profile/Caian-Gerolamo')
+            "
+          >
             Research Gate
           </button>
         </div>
         <div class="item item-5">
-          <button mat-raised-button color="primary" (click)="googleScholar()">
+          <button
+            mat-raised-button
+            color="primary"
+            (click)="
+              goToLink(
+                'https://scholar.google.com.br/citations?user=10xWaMQAAAAJ&hl=pt-BR'
+              )
+            "
+          >
             Google Scholar
           </button>
         </div>
         <div class="item item-5">
-          <button mat-raised-button color="primary" (click)="lattes()">
+          <button
+            mat-raised-button
+            color="primary"
+            (click)="
+              goToLink(
+                'http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4323228Z4'
+              )
+            "
+          >
             CNPq Lattes
           </button>
         </div>
       </div>
     </div>
-     
   </div>
+  <!-- <div id="lok">
+
+  </div> -->
   <div class="item item-2" fxFlex="100%">
-    <img class="image-6" src="/assets/images/caian2.jpg">
+    <img
+      class="image-6"
+      src="/assets/images/d.jpg"
+      loading="lazy"
+      sizes="(max-width: 991px) 92vw, 46vw"
+    />
+    <!-- <img
+      src="https://uploads-ssl.webflow.com/604680493f8a8d5d83f1c75a/6046a54af8122a51177ed27c_unnamed.jpg"
+      loading="lazy"
+      sizes="(max-width: 991px) 92vw, 46vw"
+      srcset="
+        https://uploads-ssl.webflow.com/604680493f8a8d5d83f1c75a/6046a54af8122a51177ed27c_unnamed-p-500.jpeg   500w,
+        https://uploads-ssl.webflow.com/604680493f8a8d5d83f1c75a/6046a54af8122a51177ed27c_unnamed-p-800.jpeg   800w,
+        https://uploads-ssl.webflow.com/604680493f8a8d5d83f1c75a/6046a54af8122a51177ed27c_unnamed-p-1080.jpeg 1080w,
+        https://uploads-ssl.webflow.com/604680493f8a8d5d83f1c75a/6046a54af8122a51177ed27c_unnamed.jpg         1178w
+      "
+      alt=""
+      class="image-6"
+    /> -->
+    <!-- <img srcset="img-300w.jpg 300w,
+	     img-400w.jpg 400w,
+	     img-600w.jpg 600w,
+	     img-800w.jpg 800w"
+     sizes="(max-width: 799px) 100vw, (min-width: 800px) 800px"
+     src="img-800w.jpg"> -->
     <!-- <img src="https://uploads-ssl.webflow.com/604680493f8a8d5d83f1c75a/6046a54af8122a51177ed27c_unnamed.jpg" loading="lazy" sizes="(max-width: 991px) 92vw, 46vw" srcset="https://uploads-ssl.webflow.com/604680493f8a8d5d83f1c75a/6046a54af8122a51177ed27c_unnamed-p-500.jpeg 500w, https://uploads-ssl.webflow.com/604680493f8a8d5d83f1c75a/6046a54af8122a51177ed27c_unnamed-p-800.jpeg 800w, https://uploads-ssl.webflow.com/604680493f8a8d5d83f1c75a/6046a54af8122a51177ed27c_unnamed-p-1080.jpeg 1080w, https://uploads-ssl.webflow.com/604680493f8a8d5d83f1c75a/6046a54af8122a51177ed27c_unnamed.jpg 1178w" alt="" class="image-6"> -->
   </div>
 </div>

@@ -26,6 +26,10 @@
   margin-left: 5px;
 }
 
+.content a {
+  color:#12330e;
+}
+
 .content span {
   font-family: Cormorant Garamond;
   font-size: 4vh;
